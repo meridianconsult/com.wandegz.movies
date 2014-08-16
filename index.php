@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Wandegz.com - Movie Store</title>
+	<title>Wandegz.com - Movies Store</title>
 
 	<!-- Foundation.Zurb CDN -->
 
