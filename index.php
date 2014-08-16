@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Wandegz.com - MarketFresh</title>
+	<title>Wandegz.com - Movie Store</title>
 
 	<!-- Foundation.Zurb CDN -->
 
@@ -9,10 +9,18 @@
 </head>
 <body>
 	<header>
-		<hgroup>
-			<h1 class="logo frontpage">Wandegz.com / Movies</h1>
-			<h2>New movies at your doorstep</h2>
-		</hgroup>
+
+		<grid class="row">
+			<grid class="small-12 large-12 columns">
+
+				<hgroup>
+					<h1 class="logo frontpage">Wandegz.com / Movies</h1>
+					<h2>Your online movie store</h2>
+				</hgroup>
+
+			</grid>
+		</grid>
+		
 	</header><!-- /header -->
 
 	<main>
@@ -22,7 +30,12 @@
 			<grid class="small-12 large-4 columns">
 				<ul>
 					<li><a href="movies/list">Movies</a></li>
+					<li><a href="movies/genres">Genres</a></li>
+					<li><a href="movies/vendor">Vendors</a></li>
 				</ul>
+				<form action="search" method="GET" accept-charset="utf-8">
+					<input type="text" name="search_query" placeholder="Search movies">
+				</form>
 			</grid>
 
 			<!-- Movies list-->
