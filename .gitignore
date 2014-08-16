@@ -1,0 +1,20 @@
+# Slim PHP Framework
+
+/vendor/
+/logs/*
+!/logs/README.md
+/templates/cache/*
+!/templates/cache/README.md
+
+# iOS
+
+.DS_STORE
+.idea/
+
+# Composer
+
+composer.lock
+
+# Node modules
+
+/node_modules/

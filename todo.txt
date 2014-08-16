@@ -1,0 +1,15 @@
+STAGE 1
+
+- Search for a php scraper class file
+
+- Install Laravel framework if search fails
+- Install Guzzler extension library
+- Scrape iMDB movies if no API
+- Cache movie details to database
+
+STAGE 2
+
+- Design movie orders workflow
+- Design vendor's backend
+- Develop the payments module
+- 
