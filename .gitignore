@@ -1,19 +1,13 @@
-# Slim PHP Framework
+# Laravel PHP Framework
 
-/vendor/
-/logs/*
-!/logs/README.md
-/templates/cache/*
-!/templates/cache/README.md
-
-# iOS
-
-.DS_STORE
-.idea/
-
-# Composer
-
-composer.lock
+/bootstrap/compiled.php
+/vendor
+composer.phar
+composer.lock  # Remove this one after you create a project
+.env.*.php
+.env.php
+.DS_Store
+Thumbs.db
 
 # Node modules
 
