@@ -26,7 +26,7 @@ return array(
 	|
 	*/
 
-	'url' => 'http://localhost',
+	'url' => 'http://wandegz.com',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -78,7 +78,7 @@ return array(
 	|
 	*/
 
-	'key' => 'YourSecretKey!!!',
+	'key' => 'FbM4Qb6wToVjjec1CGyCik0GFa0g7JfJ',
 
 	'cipher' => MCRYPT_RIJNDAEL_128,
 

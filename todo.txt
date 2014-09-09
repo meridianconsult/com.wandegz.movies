@@ -1,16 +1,16 @@
 STAGE 1
 
-- See if wordpress cms can do the job
-- Search for a php scraper class file
+X - See if wordpress cms can do the job
+O - Search for a php scraper class file
 
-- Install Laravel framework if search fails
-- Install Guzzler extension library
-- Scrape iMDB movies if no API
-- Cache movie details to database
+O - Install Laravel framework if search fails
+H - Install Guzzler extension library
+H - Scrape iMDB movies if no API
+H - Cache movie details to database
 
 STAGE 2
 
-- Design movie orders workflow
+O - Design movie orders workflow views (hint: blade templates)
 - Design vendor's backend
 - Develop the payments module
 - 

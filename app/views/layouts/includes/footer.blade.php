@@ -1,0 +1,1 @@
+<div id="copyright text-center"> Copyright &copy; <?php echo date('Y'); ?> <a href="">Wandegz.com (U) Ltd</a></div>
