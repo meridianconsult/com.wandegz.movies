@@ -1,0 +1,8 @@
+body{}
+body#home{}
+	body#home hgroup{text-align: center;}
+		body#home hgroup h1{font-size: 2.8rem; margin: 17px 0;}
+		body#home hgroup h2{font-size: 2rem; margin: 12px 0; text-decoration: underline;}
+
+#searchbar{text-align: center; margin-bottom: 20px;}
+table{margin: 0 auto;}

@@ -12,7 +12,11 @@
 */
 
 # Home Route
-Route::get('/', function()
-{
-	return View::make('pages/home.blade.php');
+Route::get('/', function(){ 
+	return View::make('pages.home');
+});
+
+# Search Route
+Route::get('search', function(){
+	return View::make('pages.search');
 });

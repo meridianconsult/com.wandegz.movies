@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	@include('includes.head')
+	@include('layouts.includes.head', array('page_title' => 'Wandegz.com / Movies'))
 </head>
 <body>
 
 <div class="container">
 
 	<header id="header" class="row">
-		@include('includes.header')
+		@include('layouts.includes.header')
 	</header><!-- /header -->
 
 	<div id="main" class="row">
@@ -16,7 +16,7 @@
 	</div>
 
 	<footer>
-		@include('includes.footer')
+		@include('layouts.includes.footer')
 	</footer>
 </div>
 
