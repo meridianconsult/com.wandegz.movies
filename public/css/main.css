@@ -1,4 +1,5 @@
 body{}
+h1, h2, h3{font-family: 'Domine', 'Georgia', serif;}
 body#home{}
 	body#home hgroup{text-align: center;}
 		body#home hgroup h1{font-size: 2.8rem; margin: 17px 0;}

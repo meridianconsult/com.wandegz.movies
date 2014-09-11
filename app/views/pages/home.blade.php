@@ -3,7 +3,7 @@
 
 	<hgroup>
 		<h1>Wandegz.com / Movies</h1>
-		<h2>order a movie from our shelf</h2>
+		<h2>order a movie from <a href="{{ URL::to('shelf') }}">our shelf</a></h2>
 	</hgroup>
 	<br>
 

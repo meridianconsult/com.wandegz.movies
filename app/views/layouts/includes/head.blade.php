@@ -35,5 +35,6 @@
 <link rel="shortcut icon" href="<?php echo URL::to('favicon.ico') ?>">
 
 <!-- Google Fonts -->
+<link href='http://fonts.googleapis.com/css?family=Domine:400,700' rel='stylesheet' type='text/css'>
 
 <!-- Google Analytics -->
