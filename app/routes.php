@@ -20,3 +20,14 @@ Route::get('/', function(){
 Route::get('search', function(){
 	return View::make('pages.search');
 });
+
+# Guzzle Test Route
+Route::get('shelf', function(){
+	
+	$url = "http://api.rottentomatoes.com/api/public/v1.0.json";
+	$api_key = "hwxdmu6pu9kjfjm2trkdwsru";
+
+	// Test API call
+	$response = GuzzleHttp\get($url . "?apikey=" . $api_key);
+	return $response->json();
+});
