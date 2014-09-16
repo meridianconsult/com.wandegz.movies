@@ -4,9 +4,9 @@ X - See if wordpress cms can do the job
 O - Search for a php scraper class file
 
 O - Install Laravel framework if search fails
-H - Install Guzzler extension library
-H - Scrape iMDB movies if no API
-H - Cache movie details to database
+O - Install Guzzler extension library
+O - Use rotten tomatoes movies api
+ - Cache movie details to database
 
 STAGE 2
 

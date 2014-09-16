@@ -1,4 +1,5 @@
 <meta charset="utf-8" />
+
 <meta name="keywords" content="movies, delivery, online, shop, store, uganda, east, africa" />
 <meta name="author" content="Wandegz.com" />
 <meta name="author_url" content="https://wandegz.com" />

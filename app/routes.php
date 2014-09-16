@@ -11,23 +11,18 @@
 |
 */
 
-# Home Route
-Route::get('/', function(){ 
-	return View::make('pages.home');
-});
+# Home
+Route::get('/', array('as' => 'home', function(){ return View::make('pages.home'); }));
+
+# About Us
+Route::get('about', array('as' => 'about', function(){ return View::make('pages.about'); }) );
+
+# Popular movies
+Route::get('popular', array('as' => 'popular', 'uses' => 'RecommendationsEngine@showPopular') );
+# Box Office movies
+Route::get('latest', array('as' => 'latest', 'uses' => 'RecommendationsEngine@showBoxOffice') );
+# Guzzle Test Route
+Route::get('shelf', array('as' => 'shelf', 'uses' => 'ShelfController@showAssorted') );
 
 # Search Route
-Route::get('search', function(){
-	return View::make('pages.search');
-});
-
-# Guzzle Test Route
-Route::get('shelf', function(){
-	
-	$url = "http://api.rottentomatoes.com/api/public/v1.0.json";
-	$api_key = "hwxdmu6pu9kjfjm2trkdwsru";
-
-	// Test API call
-	$response = GuzzleHttp\get($url . "?apikey=" . $api_key);
-	return $response->json();
-});
+Route::get('search', array('as' => 'search', 'uses' => 'SearchController@showResults') );
